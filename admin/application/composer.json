@@ -1,0 +1,12 @@
+{
+    "name": "kpptech/event_ticketing",
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.3"
+    },
+    "authors": [
+        {
+            "name": "rfath",
+            "email": "fathi@kpptechnology.co.id"
+        }
+    ]
+}

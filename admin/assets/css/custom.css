@@ -1,0 +1,581 @@
+
+/*Color*/
+.bg-danger{
+    background-color: #dc3545;
+}
+
+.bg-success{
+    background-color: #28a745;
+}
+
+.bg-warning{
+    background-color: #ffc107;
+}
+
+.bg-info{
+    background-color: #17a2b8;
+}
+
+.bg-old-blue{
+  background-color: #0da4db;
+}
+
+.color-deep-sky{
+	color: #00b0f0;
+}
+
+.color-white{
+  color: #ffffff !important;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+  text-align: right; 
+}
+
+.text-left{
+  text-align: left; 
+}
+
+/*.xs_nav-portrait .nav-logo>img {
+    height: 70px !important;
+    margin: 6px auto 6px 15px;
+    padding: 0;
+}*/
+
+.xs-black-overlay1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    z-index: 0;
+}
+
+
+/*Dashboard*/
+.position-icon-menu{
+  margin-top: -3px;
+  float: right;
+}
+
+.position-dash{
+    padding: 50px 0px;
+}
+
+.pic-profile{
+    border-radius: 50%;
+    width: 100px;
+    box-shadow: 2px 2px #d6cccc;
+    margin-bottom: 10px;
+}
+
+.name-profile{
+    width: 155px;
+}
+
+
+.dash_card{
+    width: 100%;
+    color: #fff;
+    margin: 10px 0;
+    padding: 20px 15px;
+    min-height: 100px;
+    background: #fff;
+    color: #00aeef;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dash_card img {
+    border-radius: 50%;
+    margin-right: 10px;
+    top: 0;
+    width: 60px;
+    float: left;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.text_count{
+    font-size: 24px;
+    font-weight: 700;
+    width: 100%;
+    color: #fff;
+    margin: 10px 0;
+    /*padding: 20px 15px;*/
+    min-height: 100px;
+    /*background: #f4f4f4;*/
+    color: #00aeef;
+}
+
+.w_nav_item{
+    width: 50% !important;
+}
+
+._additional{
+    padding: 32.5% 0%;
+}
+
+.xs-nav-pills li a {
+    padding: 13px 40px 13px 35px;
+}
+
+.size-img-campaign{
+  width: 100%;
+  height: 175px !important;
+}
+
+/*Form*/
+.input-control {
+    display: block;
+    width: 100%;
+    padding: .5rem .75rem;
+    font-size: 1rem;
+    line-height: 1.25;
+    color: #495057;
+    background-color: #fff;
+    background-image: none;
+    background-clip: padding-box;
+    /*border: 1px solid rgba(0,0,0,.15);*/
+    border: 2px solid #ccd0d3;
+    border-radius: .25rem;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+textarea:focus {
+    border: 1px solid rgba(0,0,0,.15) !important;
+    border: 2px solid #ccd0d3 !important;
+}
+
+.input-group .input-focus{
+    border: 2px solid #ccd0d3;
+}
+
+.input-group .input-focus:focus{
+    border: 2px solid #ccd0d3;
+}
+
+.input-control[disabled] {
+    cursor: not-allowed;
+    opacity: .4;
+    background: #ccd0d3;
+}
+
+
+/* The --checkbox */
+.--checkbox {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+label.--checkbox {
+    margin-left: 23%;
+    font-weight: 400;
+}
+
+/* Hide the browser's default checkbox */
+.--checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.--checkbox:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.--checkbox input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.--checkbox input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.--checkbox .checkmark:after {
+  left: 7px;
+  top: 3px;
+  width: 7px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/*Image*/
+.card-review-img{
+    width: 300px;
+    height: 300px;
+    float:left;
+    border:1px solid #303641;
+    padding:5px;
+    margin:5px;
+}
+
+
+/*Welcome page*/
+.xs-black-overlay{
+  background-color: transparent;
+}
+.xs-single-funFact.funFact-v2 span {
+    font-size: 2.42857em;
+    color: #fff;
+}
+
+.xs-single-funFact small {
+    font-size: 1em;
+    padding-left: 9px;
+}
+
+.xs-welcome-content{
+  min-height: 500px !important;
+}
+.line-border{
+  border: 1px solid #cbc5c5;
+}
+.xs-list-with-content li{
+    /*width: 79%;*/
+    flex: none;
+    max-width: none;
+}
+
+@media only screen and (max-width: 600px) {
+   .xs-welcome-content {
+        min-height: 450px;
+        /*background-size: contain;*/
+    }
+}
+
+.xs-item-header .img-campaign{
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+}
+
+.section-padding{
+    padding: 50px 0;
+}
+
+.xs-copyright-text p{
+  color: #ffffff;
+}
+
+.xs-footer-menu li a{
+  color: #ffffff;
+}
+
+.xs-copyright {
+    padding: 35px 0;
+    border-top: 1px solid #ffffff;
+}
+
+.xs-single-item-slider .owl-nav {
+    bottom: 0;
+    margin-left: 20px;
+    position: relative;
+    left: 0;
+}
+
+.title-news{
+    width: 95%;
+    color: #000;
+    padding: 20px;
+    position: fixed;
+    margin-top: -100px;
+    background-color: #fff;
+    height: 100px;
+    font-size: 16px;
+    /*font-weight: 600;*/
+}
+
+.xs-post-title {
+    font-size: 1.28571em;
+    font-weight: 600;
+    color: #041D57;
+    display: block;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    line-height: 1.5;
+    height: 30px;
+}
+
+.xs-add-campaign{
+    font-size: 1.28571em;
+    font-weight: 600;
+    color: #041D57;
+    display: block;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    line-height: 1.5;
+}
+
+.xs-funfact-section-v2 {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    padding: 50px 0;
+}
+
+.size-img-news{
+    width: 100%;
+    height: 196px !important;
+}
+
+.xs-single-journal .entry-title {
+    font-size: 1.28571em;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 0;
+    height: 100px;
+}
+
+.position-alamat{
+  margin-left: 60px;
+}
+
+.xs-footer-logo {
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: -40px;
+}
+
+.days-pos{
+    width: 79%; 
+}
+
+/*profile*/
+.parralax-size{
+  padding-bottom: 100px !important;
+}
+
+/*Campaign*/
+.span-status{
+    position: absolute;
+    background-color: #6c757d;
+    color: #fff;
+    width: auto;
+    padding: 10px;
+}
+
+.cover-campaign{
+    min-height: 230px;
+}
+
+.cover-campaign img{
+    width: 100%;
+    height: auto;
+}
+
+.article-update img {
+    width: 100%;
+    height: 300px;
+    background-size: contain;
+}
+
+@media only screen and (max-width: 600px) {
+   .article-update img {
+      width: 100%;
+      height: 200px;
+      background-size: contain;
+  }
+}
+
+/*Payment*/
+/** {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+}*/
+
+#regForm {
+    background-color: #ffffff;
+    margin: 100px auto;
+    padding: 40px;
+    width: 54%;
+    min-width: 300px;
+    box-shadow: 0 0px 0px 1px rgba(0,0,0,0.15);
+    border-radius: 20px;
+}
+/*
+h1 {
+  text-align: center;  
+}*/
+
+/*input {
+  padding: 10px;
+  width: 100%;
+  font-size: 17px;
+  font-family: Raleway;
+  border: 1px solid #aaaaaa;
+}*/
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+  background-color: #ffdddd;
+}
+
+/* Hide all steps by default: */
+.tab {
+  display: none;
+}
+
+/*button {
+  background-color: #4CAF50;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 17px;
+  font-family: Raleway;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+*/
+#prevBtn {
+  background-color: #bbbbbb;
+}
+
+/* Make circles that indicate the steps of the form: */
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border: none;  
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+.step.active {
+  opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: #4CAF50;
+}
+
+/*Wakif*/
+.head_wakif{
+  float: left;
+  max-width: 100%;
+}
+
+.head_wakif img{
+    width: 45px;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+
+.body-wakif{
+  position: relative;
+}
+
+.body-wakif .--body{
+    float: none;
+    overflow: visible;
+    margin-left: 60px;
+}
+
+.body-wakif .--body b{
+  font-size: 20px;
+}
+
+/*Rating*/
+.jq-stars {
+  display: inline-block;
+}
+
+.jq-rating-label {
+  font-size: 22px;
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  font-family: helvetica, arial, verdana;
+}
+
+.jq-star {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.jq-star-svg {
+  width: 100%;
+  height: 100% ;
+}
+
+.jq-star:hover .fs-star-svg path {
+}
+
+.jq-star-svg path {
+  /* stroke: #000; */
+  stroke-linejoin: round;
+}
+
+/* un-used */
+.jq-shadow {
+  -webkit-filter: drop-shadow( -2px -2px 2px #888 );
+  filter: drop-shadow( -2px -2px 2px #888 );
+}
+
+.email-quotes ul li{
+  width: 25% !important;
+  padding: 30px 10px !important;
+}
+
+/*Additional Mas One*/
+
+/*Kios K*/
+body.display-bg {
+    background: url(../../assets_backend/back_end/img/display-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.font-num{
+  font-size: xx-large;
+}
